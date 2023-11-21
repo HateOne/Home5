@@ -1,9 +1,9 @@
 public class MyBonusMiles {
 
     public int amount(int price) {
-int bonus;
-        bonus = price / 100 * 5;
+        double bonus;
+        bonus = price * 0.05;
 
-return bonus;
+        return (int) bonus;
     }
 }
